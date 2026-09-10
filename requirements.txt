@@ -1,0 +1,23 @@
+# Core ML / training stack
+torch>=2.1.0
+transformers>=4.44.0
+datasets>=2.19.0
+accelerate>=0.33.0
+peft>=0.12.0
+trl>=0.9.6
+
+# Quantization (4-bit QLoRA)
+bitsandbytes>=0.46.1
+
+# Tokenization backend (installed automatically via transformers,
+# pinned explicitly to ensure a prebuilt wheel is available and
+# avoid a Rust source build on install)
+tokenizers>=0.19.1
+
+# Experiment tracking / monitoring
+tensorboard>=2.16.0
+
+# Utilities
+sentencepiece>=0.2.0
+protobuf>=3.20.0
+scipy>=1.11.0
