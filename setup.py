@@ -42,3 +42,5 @@ setup(
         "Operating System :: OS Independent",
     ],
 )
+
+"Setup for standard details of build and implementation principles"
